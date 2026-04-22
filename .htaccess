@@ -1,0 +1,6 @@
+cat: /home/proll.biz/public_html/.htaccess: No such file or directory
+
+<IfModule LiteSpeed>
+RewriteEngine On
+RewriteRule \.unityweb$ - [E=Content-Encoding:gzip]
+</IfModule>
